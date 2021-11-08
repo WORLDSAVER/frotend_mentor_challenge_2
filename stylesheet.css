@@ -1,0 +1,156 @@
+                                                      /* TAG CSS */
+
+body
+{
+  font-size:16px;
+  font-family:"Red Hat Display", sans-serif;
+  margin:0;
+  background-color:hsl(225, 100%, 94%);
+}
+
+h1
+{
+  font-size:24px;
+  position:relative;
+  left:83.67px;
+  color:hsl(223, 47%, 23%);
+  padding-top:10px;
+}
+h2
+{
+  color:hsl(223, 47%, 23%);
+  font-size:15px;
+  position:relative;
+  top:25px;
+  left:30px;
+}
+h3
+{
+  font-size: 15px;
+  color:hsl(225, 100%, 98%);
+  position:absolute;
+  left:77.08px;
+  margin:0 auto;
+  top:12.5px;
+}
+
+p
+{
+  color:hsl(224, 23%, 55%);
+  font-size:14px;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+                                                      /* CLASS CSS */
+
+.background-img
+{
+  width:100%;
+  margin-top:-100px;
+}
+
+.card
+{
+  height:535px;
+  width:350px;
+  background-color:hsl(225, 100%, 98%);
+  position:absolute;
+  left:480px;
+  bottom:20px;
+  border-radius:15px;
+  box-shadow:0 20px 30px 1px hsl(224, 23%, 55%);
+}
+
+.dancer
+{
+  width:inherit;
+  border-radius: 15px 15px 0 0;
+}
+
+.p1
+{
+position:relative;
+left:53.35px;
+padding-bottom:2px;
+}
+
+.p2
+{
+position:relative;
+left:46.95px;
+padding-bottom:2px;
+}
+
+.p3
+{
+position:relative;
+left:117.345px;
+}
+
+.payment-card
+{
+  height:90px;
+  width:300px;
+  background-color:hsl(225, 100%, 95.7%);
+  border-radius:15px;
+  position:relative;
+  left:25px;
+  top:14px;
+
+}
+.music-icon
+{
+  float:left;
+  position:relative;
+  top:25px;
+  left:18px;
+  width:40px;
+}
+.cost-para
+{
+  position:relative;
+  top:15px;
+  left:30px;
+  font-size:14px;
+}
+.change
+{
+  position:absolute;
+  top:31px;
+  right:18px;
+  font-size:12px;
+  color:hsl(245, 75%, 52%);
+  font-weight:bold;
+}
+.change:hover
+{
+  text-decoration: none;
+  color:hsl(245, 75%, 65%);
+}
+.payment-btn
+{
+  width:300px;
+  height:45px;
+  background-color:hsl(245, 75%, 52%);
+  border-radius:15px;
+  position: relative;
+  left:25px;
+  top:28px;
+  box-shadow:0 5px 40px 2px hsl(224, 23%, 55%);
+}
+.payment-btn:hover
+{
+  background-color:hsl(245, 75%, 65%);
+}
+.cancel
+{
+  position:absolute;
+  bottom:10px;
+  left:132.8px;
+  font-weight:bold;
+}
+.cancel:hover
+{
+  color:hsl(224, 23%, 20%);
+}
